@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EA075A5B878B0CA1B2EC4E1 /* libPods-Mediator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8081FE5D7F08AAF727B0D634 /* libPods-Mediator.a */; };
 		F8B114202BA81B72006EA355 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B1141F2BA81B72006EA355 /* AppDelegate.m */; };
 		F8B114232BA81B72006EA355 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B114222BA81B72006EA355 /* SceneDelegate.m */; };
 		F8B114262BA81B72006EA355 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B114252BA81B72006EA355 /* ViewController.m */; };
@@ -14,9 +15,18 @@
 		F8B1142B2BA81B73006EA355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B1142A2BA81B73006EA355 /* Assets.xcassets */; };
 		F8B1142E2BA81B73006EA355 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F8B1142D2BA81B73006EA355 /* Base */; };
 		F8B114312BA81B73006EA355 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B114302BA81B73006EA355 /* main.m */; };
+		F8B114422BA81B81006EA355 /* ModelDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B114392BA81B81006EA355 /* ModelDemo.m */; };
+		F8B114432BA81B81006EA355 /* TableViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B1143C2BA81B81006EA355 /* TableViewDemo.m */; };
+		F8B114442BA81B81006EA355 /* TableViewCellDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B1143D2BA81B81006EA355 /* TableViewCellDemo.m */; };
+		F8B114452BA81B81006EA355 /* NSObject+Mediator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B1143F2BA81B81006EA355 /* NSObject+Mediator.m */; };
+		F8B114482BA81F59006EA355 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B114472BA81F59006EA355 /* BaseTableViewCell.m */; };
+		F8B114512BA82364006EA355 /* NSString+Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B114502BA82364006EA355 /* NSString+Demo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38A06F255280F44114C23F8B /* Pods-Mediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mediator.debug.xcconfig"; path = "Target Support Files/Pods-Mediator/Pods-Mediator.debug.xcconfig"; sourceTree = "<group>"; };
+		8081FE5D7F08AAF727B0D634 /* libPods-Mediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mediator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE03A8755FE8D9DDB8C2D50 /* Pods-Mediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mediator.release.xcconfig"; path = "Target Support Files/Pods-Mediator/Pods-Mediator.release.xcconfig"; sourceTree = "<group>"; };
 		F8B1141B2BA81B72006EA355 /* Mediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B1141E2BA81B72006EA355 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F8B1141F2BA81B72006EA355 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +39,18 @@
 		F8B1142D2BA81B73006EA355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8B1142F2BA81B73006EA355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8B114302BA81B73006EA355 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8B114382BA81B81006EA355 /* NSObject+Mediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Mediator.h"; sourceTree = "<group>"; };
+		F8B114392BA81B81006EA355 /* ModelDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelDemo.m; sourceTree = "<group>"; };
+		F8B1143A2BA81B81006EA355 /* ModelDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelDemo.h; sourceTree = "<group>"; };
+		F8B1143B2BA81B81006EA355 /* TableViewDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDemo.h; sourceTree = "<group>"; };
+		F8B1143C2BA81B81006EA355 /* TableViewDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDemo.m; sourceTree = "<group>"; };
+		F8B1143D2BA81B81006EA355 /* TableViewCellDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCellDemo.m; sourceTree = "<group>"; };
+		F8B1143E2BA81B81006EA355 /* TableViewCellDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCellDemo.h; sourceTree = "<group>"; };
+		F8B1143F2BA81B81006EA355 /* NSObject+Mediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Mediator.m"; sourceTree = "<group>"; };
+		F8B114462BA81F59006EA355 /* BaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		F8B114472BA81F59006EA355 /* BaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		F8B1144F2BA82364006EA355 /* NSString+Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Demo.h"; sourceTree = "<group>"; };
+		F8B114502BA82364006EA355 /* NSString+Demo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Demo.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +58,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EA075A5B878B0CA1B2EC4E1 /* libPods-Mediator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53B596EDA4CB878BB81D460B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38A06F255280F44114C23F8B /* Pods-Mediator.debug.xcconfig */,
+				8BE03A8755FE8D9DDB8C2D50 /* Pods-Mediator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E0A92D54EB8C229B745FA386 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8081FE5D7F08AAF727B0D634 /* libPods-Mediator.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F8B114122BA81B72006EA355 = {
 			isa = PBXGroup;
 			children = (
 				F8B1141D2BA81B72006EA355 /* Mediator */,
 				F8B1141C2BA81B72006EA355 /* Products */,
+				53B596EDA4CB878BB81D460B /* Pods */,
+				E0A92D54EB8C229B745FA386 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +109,18 @@
 				F8B114222BA81B72006EA355 /* SceneDelegate.m */,
 				F8B114242BA81B72006EA355 /* ViewController.h */,
 				F8B114252BA81B72006EA355 /* ViewController.m */,
+				F8B1144F2BA82364006EA355 /* NSString+Demo.h */,
+				F8B114502BA82364006EA355 /* NSString+Demo.m */,
+				F8B1143A2BA81B81006EA355 /* ModelDemo.h */,
+				F8B114392BA81B81006EA355 /* ModelDemo.m */,
+				F8B1143B2BA81B81006EA355 /* TableViewDemo.h */,
+				F8B1143C2BA81B81006EA355 /* TableViewDemo.m */,
+				F8B1143E2BA81B81006EA355 /* TableViewCellDemo.h */,
+				F8B1143D2BA81B81006EA355 /* TableViewCellDemo.m */,
+				F8B114462BA81F59006EA355 /* BaseTableViewCell.h */,
+				F8B114472BA81F59006EA355 /* BaseTableViewCell.m */,
+				F8B114382BA81B81006EA355 /* NSObject+Mediator.h */,
+				F8B1143F2BA81B81006EA355 /* NSObject+Mediator.m */,
 				F8B114272BA81B72006EA355 /* Main.storyboard */,
 				F8B1142A2BA81B73006EA355 /* Assets.xcassets */,
 				F8B1142C2BA81B73006EA355 /* LaunchScreen.storyboard */,
@@ -83,6 +137,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8B114342BA81B73006EA355 /* Build configuration list for PBXNativeTarget "Mediator" */;
 			buildPhases = (
+				E4DE3C4F9ABAA45B4BED9C7E /* [CP] Check Pods Manifest.lock */,
 				F8B114172BA81B72006EA355 /* Sources */,
 				F8B114182BA81B72006EA355 /* Frameworks */,
 				F8B114192BA81B72006EA355 /* Resources */,
@@ -141,14 +196,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E4DE3C4F9ABAA45B4BED9C7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mediator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F8B114172BA81B72006EA355 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B114482BA81F59006EA355 /* BaseTableViewCell.m in Sources */,
+				F8B114432BA81B81006EA355 /* TableViewDemo.m in Sources */,
+				F8B114512BA82364006EA355 /* NSString+Demo.m in Sources */,
+				F8B114422BA81B81006EA355 /* ModelDemo.m in Sources */,
 				F8B114262BA81B72006EA355 /* ViewController.m in Sources */,
+				F8B114452BA81B81006EA355 /* NSObject+Mediator.m in Sources */,
 				F8B114202BA81B72006EA355 /* AppDelegate.m in Sources */,
 				F8B114312BA81B73006EA355 /* main.m in Sources */,
+				F8B114442BA81B81006EA355 /* TableViewCellDemo.m in Sources */,
 				F8B114232BA81B72006EA355 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +379,7 @@
 		};
 		F8B114352BA81B73006EA355 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38A06F255280F44114C23F8B /* Pods-Mediator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,6 +392,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +407,7 @@
 		};
 		F8B114362BA81B73006EA355 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE03A8755FE8D9DDB8C2D50 /* Pods-Mediator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -331,6 +420,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
